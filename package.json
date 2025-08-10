@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "name": "react-state-class",
-=======
-  "name": "basic-react-app",
->>>>>>> f7a399b (basics practice)
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,7 +11,8 @@
   },
   "dependencies": {
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.30.1",
