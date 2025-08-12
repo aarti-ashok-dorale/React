@@ -20,17 +20,17 @@ export default function TodoList() {
         setTodos((prevTodos) => todos.filter((prevTodos) => prevTodos.id != id))
     };
 
-    //uppercase all tasks
-    let upperCaseAll = () => {
-        setTodos( (Todos) => 
-            todos.map((todo) => {
-          return{
-            ...todo,
-            task : todo.task.toUpperCase()
-          };
-        })
-    );
-    };
+    // //uppercase all tasks
+    // let upperCaseAll = () => {
+    //     setTodos( (Todos) => 
+    //         todos.map((todo) => {
+    //       return{
+    //         ...todo,
+    //         task : todo.task.toUpperCase()
+    //       };
+    //     })
+    // );
+    // };
 
     //uppercase only one task
     let UpperCaseOne = (id) => {
