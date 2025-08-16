@@ -1,13 +1,14 @@
 import './App.css';
 import Form from "./Form";
-import CommentsForm from './CommentsForm';
+import CommentsForm from './CommentsForm.jsx';
+import Comment from './Comment.jsx';
 
 function App() {
  
 
   return (
     <>
-      <CommentsForm />
+      <Comment />
     </>
   );
 }
